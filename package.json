@@ -4,7 +4,8 @@
   "description": "Allows a hof app to use react components in templates",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run test:lint",
+    "test:lint": "eslint ."
   },
   "repository": {
     "type": "git",
@@ -21,5 +22,9 @@
     "babel-preset-react": "^6.24.1",
     "react": "^15.6.1",
     "react-dom": "^15.6.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.1.1",
+    "eslint-config-homeoffice": "^2.1.2"
   }
 }
