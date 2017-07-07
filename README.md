@@ -1,2 +1,2 @@
-# hot-util-react
+# hof-util-react
 Allows a hof app to use react components in templates
