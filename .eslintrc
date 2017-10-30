@@ -1,0 +1,8 @@
+extends:
+  homeoffice/config/default
+
+rules:
+  func-names: 0
+
+env:
+  es6: true
